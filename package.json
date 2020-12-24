@@ -1,0 +1,30 @@
+{
+  "name": "express-flashcards",
+  "version": "1.0.0",
+  "description": "Server for my portfolio flashcards app",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ordinaryname/express-flashcards.git"
+  },
+  "keywords": [
+    "flashcards"
+  ],
+  "author": "Raymond Mutyaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ordinaryname/express-flashcards/issues"
+  },
+  "homepage": "https://github.com/ordinaryname/express-flashcards#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0"
+  }
+}
